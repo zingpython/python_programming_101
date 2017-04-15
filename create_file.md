@@ -20,7 +20,7 @@ Step 5. Create new python file with extension .py
 touch new_file.py
 ```
 
-Step 6. Check if new_file is in the folder.
+Step 6. Check if new_file is in the folder. If you use Windows do dir.
 ```
 ls
 ```
