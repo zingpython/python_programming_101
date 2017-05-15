@@ -1,5 +1,11 @@
 Exercises for Python Programming 101.
 
+Python Built-in Functions
+```
+https://docs.python.org/3.6/library/functions.html
+```
+
+
 Exercise 1.
         Write a program that asks the user to enter the width and 
         length of a room. Once the values have been read, your program should compute and display the area of the room. The length and the width will be entered as floating point numbers. Include units in your prompt and output message; 
