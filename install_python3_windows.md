@@ -15,3 +15,13 @@ You can do this easily by running the following in powershell:
 ```
 [Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python36\;C:\Python36\Scripts\", "User")
 ```
+another variation
+```
+[Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python36")
+```
+or
+```
+[System.Environment]::SetEnvironmentVariable("PATH", $Env:Path + ";C:\Python36", "Machine")
+```
+
+Step 3. Please restart the Powershell after that.
